@@ -51,3 +51,9 @@ export async function POST(
     });
   }
 }
+
+export async function GET(){
+  return NextResponse.json({
+    message: "Successful test response"
+  })
+}
